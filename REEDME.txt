@@ -1,0 +1,74 @@
+#####APLICACION <INVENTARIO>
+########################################################################################################################################
+####INDICE
+###DESCRIPCION
+###REQUERIMIENTOS
+##INSTALACION Y CONFIGURACION DE BASES DE DATOS
+##INSTRUCCIONES DE USO
+###PRUEBAS
+########################################################################################################################################
+###DESCRIPCION
+#Esta aplicacion se construyo con el motivo de prueba tecnica para la empresa LAYER7 con motivo de demostracion de habilidad en entorno
+de programacion larabel
+
+###REQUERIMIENTOS:
+##LARABEL 11
+##COMPOSER
+##SQLITE3
+##NPM
+
+###INSTALACION Y CONFIGURACION DE BASES DE DATOS
+
+##CONFIGURACION BASE DE DATOS
+#DB_CONNECTION=sqlite
+#DB_HOST=127.0.0.1
+#DB_PORT=3306
+#DB_DATABASE=Localizar archivo database.sqlite que se encuentra dentro de la carpeta database y colocar ruta completa de dicho archivo en el archivo de configuracion.env
+#DB_USERNAME=root
+#DB_PASSWORD=
+##Verificar que su compouser tenga libreria ui en caso de que no ejecutar el siguiente comando:
+composer require laravel/ui
+
+##ejecutar
+npm run dev  de preferencia en consola secundaria a la del artisan
+##instalacion de propiedades del NPM y librerias faltantes que utilize el proyecto
+npm install
+##Para inicializar la aplicacion ejecutar en consola comando
+php artisan serve
+
+
+###INSTRUCCIONES DE USO
+##REGISTRO
+#registre su usuario para poder ingresar a la aplicacion de inventario.
+#una vez dentro se desplegara una lista de los productos que como usuario tiene registrados
+
+##LOGIN
+#Si ya cuenta con un usuario puede ingresar con el, colocando sus credenciales para acceder a la aplicacion.
+
+##AGREGAR PRODUCTO
+#se puede agregar productos dando click en el boton de agregar producto este desplegara un
+#formulario el cual necesita rellenar para poder ingresar un producto nuevo presionando
+#el boton de guardar
+#una vez terminado de agregar sus productos dar click en el boton de regresar para volver a la lista de productos
+
+##EDITAR PRODUCTO
+#Se puede editar cada uno de los productos en el apartado de detalles, en este se puede visualizar el boton de editar
+#al precionarlo puede visualizar los campos de producto que pueden ser editados, ingrese los nuevos valores y de click en el boton de guardar
+#una vez terminado de haber editado los valores correctamente puede dar click en el boton de regresar para ver de nuevo la lista de productos
+
+##ELIMINAR PRODUCTO
+#se puede eliminar un producto dando click en el boton de eliminar el cual se encuentra en el apartado de detalles que tiene cada producto
+#de la lista una vez presionado este desplegara un mensaje que si esta seguro de la eliminacion de dicho producto, no habra retorno de esa informacion
+#al dar click en eliminar esta se borrara por completo
+
+##USUARIO
+#en el menu se puede apreciar el nombre de usuario, dar click en el boton de usuario para ver las opciones disponibles.
+
+##SALIR
+#de click en la opcion logout del usuario para salir del sistema de forma segura.
+
+###PRUEBAS:
+##Se hicieron pruebas de registros en la aplicacion de diversos usuarios de prueba.
+
+###CREDITOS:
+#GERARDO LEONARDO PUERTO RIEGOS
