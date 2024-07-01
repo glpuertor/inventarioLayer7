@@ -9,10 +9,10 @@
 ########################################################################################################################################
 ###DESCRIPCION
 #Esta aplicacion se construyo con el motivo de prueba tecnica para la empresa LAYER7 con motivo de demostracion de habilidad en entorno
-de programacion larabel
+de programacion LARAVEL
 
 ###REQUERIMIENTOS:
-##LARABEL 11
+##LARAVEL 11
 ##COMPOSER
 ##SQLITE3
 ##NPM
